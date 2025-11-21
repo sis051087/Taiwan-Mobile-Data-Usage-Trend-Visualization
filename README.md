@@ -75,9 +75,7 @@ python3 visualize.py
 
 ---
 
-## 💡 製作目的  
-
-本專案主要用於練習：
+## 💡 專案亮點  
 
 - 數據清理（拆欄位、過濾條件）  
 - 分組統計（groupby）  
@@ -89,3 +87,8 @@ python3 visualize.py
 展示我在資料處理與程式應用方面的學習成果。
 
 ---
+
+## 🙋‍♂️ 作者
+
+陳柏瀚 Jim Chen 
+GitHub: https://github.com/sis051087
