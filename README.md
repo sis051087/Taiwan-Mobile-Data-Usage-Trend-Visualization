@@ -88,6 +88,11 @@ python3 visualize.py
 
 ---
 
+## 未來可延伸
+
+- 用Power BI或Tableau增加互動Dashboard  
+- 增加預測模型工具(future work)   
+
 ## 🙋‍♂️ 作者
 
 陳柏瀚 Jim Chen 
