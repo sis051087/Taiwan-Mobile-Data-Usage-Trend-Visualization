@@ -39,6 +39,10 @@ pandas
 matplotlib
 ```
 
+### 2.執行程式
+```
+python3 visualize.py
+```
 ### 3. 圖片輸出位置  
 執行後會在 `charts/` 資料夾自動生成：
 
