@@ -28,14 +28,15 @@
 
 ## ▶ 使用方式
 
-### 1. 安裝必要套件
+### 1️⃣ 安裝必要套件
 ```
-pip3 install pandas matplotlib
+pip install -r requirements.txt
 ```
 
-### 2. 執行主程式
+requirements.txt 內容：
 ```
-python3 visualize.py
+pandas
+matplotlib
 ```
 
 ### 3. 圖片輸出位置  
