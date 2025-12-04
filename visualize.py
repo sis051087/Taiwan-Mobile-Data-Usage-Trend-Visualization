@@ -28,7 +28,7 @@ yearly = df.groupby("year")["平均每一用戶數據傳輸量（GBytes）"].mea
 
 plt.figure(figsize=(10, 6))
 plt.plot(yearly.index, yearly.values, marker='o')
-plt.title("108–114 年行動數據平均用量趨勢（使用整理後資料）")
+plt.title("108–114 年行動數據平均用量趨勢")
 plt.xlabel("年度")
 plt.ylabel("平均用量（GB）")
 plt.grid(True)
@@ -45,7 +45,7 @@ operator_yearly = (
 )
 
 operator_yearly.plot(figsize=(12, 6), marker='o')
-plt.title("各電信業者 108–114 平均用量比較（使用整理後資料）")
+plt.title("各電信業者 108–114 平均用量比較")
 plt.xlabel("年度")
 plt.ylabel("平均用量（GB）")
 plt.grid(True)
@@ -60,7 +60,7 @@ season = df.groupby("month")["平均每一用戶數據傳輸量（GBytes）"].me
 
 plt.figure(figsize=(10, 6))
 plt.plot(season.index, season.values, marker='o')
-plt.title("台灣行動數據月度季節性趨勢（整理後資料）")
+plt.title("台灣行動數據月度季節性趨勢")
 plt.xlabel("月份")
 plt.ylabel("平均用量（GB）")
 plt.grid(True)
