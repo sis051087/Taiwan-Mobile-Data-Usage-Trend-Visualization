@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-# 中文字體（Mac）
-plt.rcParams['font.sans-serif'] = ['Arial Unicode MS']
+# Mac 需使用 Arial Unicode MS 字體
+plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei']
 plt.rcParams['axes.unicode_minus'] = False
 
 # 輸出資料夾
